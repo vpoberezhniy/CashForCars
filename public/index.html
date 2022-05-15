@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+<!--    <div id="app"></div>-->
+        <div class="wrapper">
+            <div class="header">
+                <div class="logo">
+                    <img src="/img/logo.svg">
+                    <a href="#">CashForCars</a>
+                    <p>TOP USED CAR BUYER</p>
+                </div>
+                <div class="subMenu">
+                    <ul>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">Why choose us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="#">How it works</a></li>
+                        <li><a class="menu__item" href="#">Why choose us</a></li>
+                        <li><a class="menu__item" href="#">FAQs</a></li>
+                        <li><a class="menu__item" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="contentTop">
+                    <div class="contentLeftSide">
+                        <div class="contentLeftSide-info">
+                            <p>Enter your vehicle details to receive a free valuation.</p>
+                        </div>
+                        <div class="contentLeftSide-details">
+                            <p>If your vehicle has <b>less than 100,000 miles</b> enter your vehicle and contact details
+                                and we will contact you with a cash valuation within 24 hours.</p>
+                        </div>
+                        </div>
+                    <div class="contentRightSide">
+                        <div class="contentRightSideButton"><p>ENTER REG</p></div>
+                        <div class="contentRightSideForm">
+                            <form>
+                                <label for="contentRightSideFormCheck">
+                                <input id="contentRightSideFormCheck" type="checkbox" name="checkOption">
+                                I confirm that the vehicle I am enquiring about has less than 100,000 miles.</label>
+                            </form>
+                            <a href="#">Get Started <img src="/img/right-row.svg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentMiddle">
+                    <h2>We Pay Cash For Cars</h2>
+                    <p>CashForCars is the safe, easy and cost effective alternative to selling your car to a dealer or through private advertisement. We guarantee to buy your car whatever the make, age, model or condition. No hassle, no time wasters, no bouncing cheques and no fees. Sell your car in Belfast today!</p>
+                    <p>We operate from premises in the Belfast area and will buy cars throughout Northern Ireland.</p>
+                </div>
+                <div class="contentDetails">
+                    <div class="contentDetailsRevers">
+                        <h2>How it works</h2>
+                        <h3>It's so easy to sell your car with CashForCars!</h3>
+                        <div class="contentDetailsPoint">
+                            <div class="contentDetailsPointOne">
+                                <img src="img/google-forms.svg">
+                                <h4>1. Enter Your Details</h4>
+                                <p>It takes just a few minutes to complete a form providing us with details of your vehicle.
+                                    Answer a few questions about your cars mileage, age,
+                                    condition, etc and fill in your personal details.
+                                </p>
+                            </div>
+                            <div class="contentDetailsPointTwo">
+                                <img src="img/hand.svg">
+                                <h4>2. Receive a Price</h4>
+                                <p>We will contact you within 24hrs. If you are satisfied with our valuation we will arrange
+                                    for you to meet at our premises or for a member of the CashForCars team to visit you.
+                                </p>
+                            </div>
+                            <div class="contentDetailsPointThree">
+                                <img src="img/car-key.svg">
+                                <h4>3. Sell Your Car</h4>
+                                <p>Once you have met a member of our team the whole process should be concluded within 15–20 minutes.
+                                    We will pay you by draft cheque or transfer the money securely by Faster Payments there and then, with no fees.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentBlockInfo">
+                    <h2>Why choose CashForCars to sell your car?</h2>
+                    <div class="contentBlockInfoPoints">
+                        <p>Advertising your car for sale privately can be a costly, not to mention frustrating process which is renowned for attracting time wasters.</p>
+                        <p> Using CashForCars eliminates the hassle of strangers visiting your home, the worry associated with them taking a test drive uninsured and guarantees peace of mind by working with a reputable company.</p>
+                        <p>By dealing directly with CashForCars you also eliminate the worry of cheques bouncing and unsatisfied customers returning to your door.</p>
+                        <p>CashForCars is the quick, easy and efficient way to turn your car into cash for whatever reason. If you are purchasing a replacement vehicle of a dealer, selling your car to CashForCars puts you in the driving seat and you will be able to negotiate a much better deal.</p>
+                        <img src="img/Rectangle.jpg">
+                    </div>
+                </div>
+                <div class="contentPoint">
+                    <div class="contentPointLeftSide">
+                        <p><img src="img/check.svg"> Sell your car right away</p>
+                        <p><img src="img/check.svg"> Secure payment & release of ownership</p>
+                        <p><img src="img/check.svg"> Sales are final</p>
+                        <p><img src="img/check.svg"> Instant Payment</p>
+                        <p><img src="img/check.svg"> No Fees</p>
+                        <p><img src="img/check.svg"> No Strangers Visiting Your Home</p>
+                        <p><img src="img/check.svg"> No Time Wasters & Tyre Kickers</p>
+                        <p><img src="img/check.svg"> We'll take your car as it is</p>
+                    </div>
+                    <div class="contentPointRightSide">
+                        <p><img src="img/check.svg"> We'll take your car as it is</p>
+                        <p><img src="img/check.svg"> Cash in hand and more of it</p>
+                        <p><img src="img/check.svg"> Transparent and fair appraisal</p>
+                        <p><img src="img/check.svg"> Know the price upfront</p>
+                        <p><img src="img/check.svg"> Easy and convenient</p>
+                        <p><img src="img/check.svg"> Outstanding Finance Settled</p>
+                        <p><img src="img/check.svg"> No Bouncing Cheques</p>
+                        <p><img src="img/check.svg"> Avoid Uninsured Test Drives</p>
+                    </div>
+                </div>
+<!--                Slider (mobile version)-->
+                <section id="slider_bl">
+                    <div class="wrapperSlider">
+                        <input checked type=radio name="slider" id="slide1" />
+                        <input type=radio name="slider" id="slide2" />
+                        <div class="slider-wrapper">
+                            <div class=inner>
+                                <article>
+<!--                                    <div class="info top-left">-->
+<!--                                        <h3>Слайдер 1</h3></div>-->
+<!--                                    <img src="https://obninsksite.ru/assets/theme/images/blog/slider/1.jpg" />-->
+                                    <div class="contentPointLeftSide">
+                                        <p><img src="img/check.svg"> Sell your car right away</p>
+                                        <p><img src="img/check.svg"> Secure payment & release of ownership</p>
+                                        <p><img src="img/check.svg"> Sales are final</p>
+                                        <p><img src="img/check.svg"> Instant Payment</p>
+                                        <p><img src="img/check.svg"> No Fees</p>
+                                        <p><img src="img/check.svg"> No Strangers Visiting Your Home</p>
+                                        <p><img src="img/check.svg"> No Time Wasters & Tyre Kickers</p>
+                                        <p><img src="img/check.svg"> We'll take your car as it is</p>
+                                    </div>
+                                </article>
+                                <article>
+<!--                                    <div class="info bottom-right">-->
+<!--                                        <h3>Слайдер 2</h3></div>-->
+<!--                                    <img src="https://obninsksite.ru/assets/theme/images/blog/slider/2.jpg" />-->
+                                    <div class="contentPointRightSide">
+                                        <p><img src="img/check.svg"> We'll take your car as it is</p>
+                                        <p><img src="img/check.svg"> Cash in hand and more of it</p>
+                                        <p><img src="img/check.svg"> Transparent and fair appraisal</p>
+                                        <p><img src="img/check.svg"> Know the price upfront</p>
+                                        <p><img src="img/check.svg"> Easy and convenient</p>
+                                        <p><img src="img/check.svg"> Outstanding Finance Settled</p>
+                                        <p><img src="img/check.svg"> No Bouncing Cheques</p>
+                                        <p><img src="img/check.svg"> Avoid Uninsured Test Drives</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="slider-dot-control">
+                            <label for=slide1></label>
+                            <label for=slide2></label>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="contentBlockPagination">
+                    <div class="contentBlockPaginationOne">
+                        <h2>Trade In</h2>
+                        <p>Don't let dealers give you less at trade-in, take a look at why CashForCars is a great
+                            way to get more money for your car! There are many great reasons
+                            to choose us over a standard dealer trade-in!
+                        </p>
+                    </div>
+                    <div class="contentBlockPaginationTwo">
+                        <h2>Sell On Your Own</h2>
+                        <p>Selling a car on your own can be unpredictable and stressful, with CashForCars you can sell y
+                            our car as soon as you're ready. Check out why we're better than selling it yourself!
+                        </p>
+                    </div>
+                    <div class="contentBlockPaginationTree">
+                        <h2>What our customers have been saying</h2>
+                    </div>
+
+
+
+                    <div class="carousel" aria-label="Gallery">
+
+                        <ol class="carousel__viewport">
+                            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                                <div class="carousel__snapper">
+                                    <p>
+                                        "Can't recommend them enough. Their fast, friendly service was ideal, and they offered us a better price than other trade in sites..."
+                                    </p>
+                                </div>
+                            </li>
+                            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                                <div class="carousel__snapper">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, facere quo magni modi non eligendi atque! Ipsum delectus inventore...
+                                    </p>
+                                </div>
+                            </li>
+                            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                                <div class="carousel__snapper">
+                                    <p>
+                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+                                    </p>
+                                </div>
+                            </li>
+                            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                                <div class="carousel__snapper">
+                                    <p>
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos...
+                                    </p>
+                                </div>
+                            </li>
+                        </ol>
+
+                        <div class="carousel__navigation">
+                            <ol class="carousel__navigation-list">
+                                <li class="carousel__navigation-item">
+                                    <a href="#carousel__slide1"
+                                       class="carousel__navigation-button"></a>
+                                </li>
+                                <li class="carousel__navigation-item">
+                                    <a href="#carousel__slide2"
+                                       class="carousel__navigation-button"></a>
+                                </li>
+                                <li class="carousel__navigation-item">
+                                    <a href="#carousel__slide3"
+                                       class="carousel__navigation-button"></a>
+                                </li>
+                                <li class="carousel__navigation-item">
+                                    <a href="#carousel__slide4"
+                                       class="carousel__navigation-button"></a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentOffer">
+                    <h2>Receive your free valuation now</h2>
+                    <a href="#">Get Started <img src="/img/right-row.svg"></a>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footerSubMenu">
+                    <ul>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">Why choose us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <p class="copiriter">©2021 Cash for Cars  |  Terms and Conditions  |  Privacy Policy</p>
+                </div>
+                <div class="footerLogo">
+                    <img src="/img/logo.svg">
+                    <a href="#">CashForCars</a>
+                    <p>TOP USED CAR BUYER</p>
+                </div>
+                <div class="copiriterInfo">
+                    <p class="copiriterMobile">©2021 Cash for Cars</p>
+                    <p class="copiriterMobile">Terms and Conditions  |  Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
